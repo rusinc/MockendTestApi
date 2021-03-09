@@ -13,6 +13,6 @@
   "Message": {
     "id": "int",
     "date": "date",
-    "sender": "Profile"
+    "chat": "Chat"
   }
 }
