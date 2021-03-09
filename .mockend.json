@@ -8,6 +8,7 @@
   },
   "Notelist": {
     "id": "int",
+    "name": "string",
     "profile": "Profile",
     "notes": "Note[]"
   },
