@@ -1,0 +1,18 @@
+{
+  "Profile": {
+    "id": "int",
+    "login": "string",
+    "password": "string",
+    "registrationDate": "date"
+  },
+  "Chat": {
+    "id": "int",
+    "participients": "Profile[]",
+    "messages": "Message[]"
+  },
+  "Message": {
+    "id": "int",
+    "date": "date",
+    "sender": "Profile"
+  }
+}
