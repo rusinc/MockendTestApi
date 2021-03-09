@@ -1,19 +1,13 @@
 {
-  "Profile": {
-    "id": "int",
-    "login": "string",
-    "password": "string",
-    "registrationDate": "date",
-    "notelists": "Notelist[]"
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
   },
-  "Notelist": {
-    "id": "int",
-    "profile": "Profile",
-    "notes": "Note[]"
-  },
-  "Note": {
-    "id": "int",
-    "date": "date",
-    "notelist": "Notelist"
+  "Comment": {
+    "body": "string",
+    "post": "Post"
   }
 }
