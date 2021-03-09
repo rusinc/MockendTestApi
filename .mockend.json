@@ -3,16 +3,17 @@
     "id": "int",
     "login": "string",
     "password": "string",
-    "registrationDate": "date"
+    "registrationDate": "date",
+    "notelists": "Notelist[]"
   },
-  "Chat": {
+  "Notelist": {
     "id": "int",
-    "participients": "Profile[]",
-    "messages": "Message[]"
+    "profile": "Profile",
+    "notes": "Note[]"
   },
-  "Message": {
+  "Note": {
     "id": "int",
     "date": "date",
-    "chat": "Chat"
+    "notelist": "Notelist"
   }
 }
